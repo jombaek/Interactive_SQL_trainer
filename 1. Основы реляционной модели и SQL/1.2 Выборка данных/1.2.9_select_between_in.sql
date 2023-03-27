@@ -1,0 +1,6 @@
+-- https://stepik.org/lesson/297509/step/10?unit=279269
+-- Выборка данных, операторы BETWEEN, IN
+
+SELECT title, author
+FROM book
+WHERE (price BETWEEN 540.50 AND 800) AND (amount IN (2, 3, 5, 7));
