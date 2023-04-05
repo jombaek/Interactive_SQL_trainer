@@ -10,4 +10,5 @@ SET book.amount = book.amount + supply.amount,
 WHERE book.price <> supply.price;
 
 SELECT * FROM book;
+
 SELECT * FROM supply;
